@@ -1,0 +1,13 @@
+name = "withgo-email-worker"
+main = "src/index.js"
+compatibility_date = "2025-06-01"
+compatibility_flags = ["nodejs_compat"]
+
+[[kv_namespaces]]
+binding = "RATE_LIMIT"
+id = "be613cbd808149d7a768e696438e0491"
+
+[[kv_namespaces]]
+binding = "PIN_TOKENS"
+id = "7727b0708faa402087cb274acfbd4be5"
+
