@@ -1,0 +1,18 @@
+{
+  "name": "withgo-email-worker",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev":      "wrangler dev",
+    "deploy":   "wrangler deploy",
+    "logs":     "wrangler tail",
+    "kv:create-rate":   "wrangler kv namespace create RATE_LIMIT",
+    "kv:create-tokens": "wrangler kv namespace create PIN_TOKENS",
+    "secrets:resend":   "wrangler secret put RESEND_API_KEY",
+    "secrets:hmac":     "wrangler secret put HMAC_SECRET"
+  },
+  "devDependencies": {
+    "wrangler": "^3.90.0"
+  }
+}
